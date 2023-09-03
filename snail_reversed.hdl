@@ -1,0 +1,11 @@
+CIRCUIT snail_reversed()
+{
+PARAMETER
+    ic1 = 1.47,
+    rn1 = 0.256, 
+    cj1 = 243,
+    ic2 = 0.0735, 
+    rn2 = 5.1,
+    cj2 = 12,
+    phi=0.0;
+}

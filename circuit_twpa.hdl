@@ -1,0 +1,13 @@
+PARAMETER
+    s = 0.05,
+    p = 2,
+    pi = 3.141592,
+    f1 = 0.00131,
+    f2 = 0.00116,
+    r = 0.038,
+    c = 1671;
+CIRCUIT  circuit_twpa()
+{
+INTERNAL
+    i = 2*p*sin(f1*tcurr) + 2*s*sin(f2*tcurr);
+}
