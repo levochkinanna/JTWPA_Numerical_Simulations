@@ -1,1 +1,9 @@
 
+to set the desired external flux for each unit cell, 
+we need to modify the SNAIL TWPA WRSPICE equivalent circuit, and model 
+the flux bias by introducing a small linear inductance, L_add=0.1 pH, 
+in each SNAIL element, and adding an auxiliary external inducting 
+loop with mutual inductance M (Fig. 6). In this way, the flux is 
+coupled via the external inductor Lext and is controlled by an external 
+source of dc current Idc, which is included in the model. Here we set Lext = 1.6 μH and the mutual inductance is proportional to √(L_add L_ext ) [19].
+The case of 0 external flux corresponds to setting Idc = 0.0 μA, while 0.5 external flux corresponds to setting Idc = -2.5 μA
