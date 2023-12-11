@@ -1,4 +1,4 @@
 # These codes allow to simulate 250 cells Reversed Kerr TWPA with PSCAN2 package.
-# All information related to the features and syntax pf the tool is on the official website
+# All information related to the features and syntax of the tool is on the official website
 # http://pscan2sim.org/
 # For JTWPA flux bias phase generator is used (see .png file)
