@@ -1,1 +1,2 @@
-# This code is taken from https://github.com/kpobrien/JosephsonCircuits.jl and adapted for device under study
+# These code allow to simulate 250 cells Reversed Kerr TWPA with JosephsonCiruit.jl package of Julia.
+# The present code is taken from https://github.com/kpobrien/JosephsonCircuits.jl and adapted for device under study
